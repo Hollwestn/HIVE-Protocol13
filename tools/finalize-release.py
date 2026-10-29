@@ -4,7 +4,7 @@ from datetime import datetime,timezone
 import json,hashlib,zipfile,subprocess,shutil
 
 root=Path(__file__).resolve().parents[1]
-release=root/'release';version='0.7.0';build='alpha070-publish-01'
+release=root/'release';version='0.7.0';build='alpha070-publish-02'
 app=release/('build-'+build)/'app-image/HIVE-Protocol13/app'
 def sha(path):return hashlib.file_digest(path.open('rb'),'sha256').hexdigest()
 tested=json.loads((root/'docs/qa/0.7.0/tested-jars.json').read_text())

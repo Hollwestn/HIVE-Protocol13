@@ -2,12 +2,12 @@
 from pathlib import Path
 import json,hashlib,xml.etree.ElementTree as ET
 root=Path(__file__).resolve().parents[2]
-work=root/'artifacts/release070/msi-content'
+work=root/'artifacts/release070/msi-content02'
 tree=ET.parse(work/'package.wxs');ns={'w':'http://schemas.microsoft.com/wix/2006/wi'}
 product=tree.getroot().find('w:Product',ns)
 assert product.attrib['Version']=='0.7.0'
 directory=product.find('.//w:Directory[@Id="INSTALLDIR"]',ns)
-image=root/'release/build-alpha070-publish-01/app-image/HIVE-Protocol13'
+image=root/'release/build-alpha070-publish-02/app-image/HIVE-Protocol13'
 checked=[];markers=[]
 def sha(p):return hashlib.file_digest(p.open('rb'),'sha256').hexdigest()
 def visit(node,relative):

@@ -8,7 +8,7 @@
 
 Кооперативный 2D-хоррор для **2–3 игроков** · **Windows x64** · **LAN / Radmin VPN**
 
-[**Скачать игру**](https://github.com/Hollwestn/HIVE-Protocol13/releases/latest) · [**Руководство с картинками**](docs/guide/index.html) · [**PDF-гайд**](docs/guide/guide.pdf) · [**Сообщить об ошибке**](https://github.com/Hollwestn/HIVE-Protocol13/issues)
+[**Скачать игру**](https://github.com/Hollwestn/HIVE-Protocol13/releases/tag/v0.7.0) · [**Руководство с картинками**](docs/guide/index.html) · [**PDF-гайд**](docs/guide/guide.pdf) · [**Сообщить об ошибке**](https://github.com/Hollwestn/HIVE-Protocol13/issues)
 
 **Публичная альфа 0.7.0** — шесть глав основной истории. Полный объём первоначального ТЗ ещё не завершён: [фактический статус](docs/STATUS.md).
 
@@ -58,7 +58,7 @@
 
 ## Начать играть
 
-1. Скачайте **Setup.exe** из [последнего выпуска](https://github.com/Hollwestn/HIVE-Protocol13/releases/latest) и установите игру. Для запуска без установки есть **Portable.zip**: распакуйте целиком и откройте `HIVE-Protocol13.exe`. Java уже внутри.
+1. Скачайте **Setup.exe** из [последнего выпуска](https://github.com/Hollwestn/HIVE-Protocol13/releases/tag/v0.7.0) и установите игру. Для запуска без установки есть **Portable.zip**: распакуйте целиком и откройте `HIVE-Protocol13.exe`. Java уже внутри.
 2. Если вы в разных сетях, заранее подключитесь к одной сети Radmin VPN.
 3. Хост выбирает «Начать кампанию», оставляет `0.0.0.0`, порт `27713`, выбирает персонажа и открывает лобби.
 4. В лобби хост копирует свои адреса и передаёт другу подходящий IP общей LAN/VPN-сети, порт и отдельно пароль, если задан.

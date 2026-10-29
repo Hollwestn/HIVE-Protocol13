@@ -1,8 +1,8 @@
 {
   "passed": true,
   "msiVersion": "0.7.0",
-  "packagedFiles": 404,
-  "matchedApplicationFiles": 403,
+  "packagedFiles": 405,
+  "matchedApplicationFiles": 404,
   "everyApplicationFileMatchesTestedAppImage": true,
   "installerMarkersVerified": [
     "app/.package"
