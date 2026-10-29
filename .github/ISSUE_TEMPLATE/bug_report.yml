@@ -1,0 +1,40 @@
+name: Ошибка в игре
+description: Сообщить о сбое, проблеме подключения или механике.
+title: "[Ошибка] "
+body:
+  - type: markdown
+    attributes:
+      value: "Спасибо за проверку. Не прикладывайте пароли, файлы .auth и settings.properties. Если нужна копия сохранения, сначала убедитесь, что в ней нет личных данных."
+  - type: input
+    id: version
+    attributes:
+      label: Версия игры
+      placeholder: "Например, 0.7.0 у обоих игроков"
+    validations:
+      required: true
+  - type: input
+    id: party
+    attributes:
+      label: Участники и глава
+      placeholder: "Двое: хост-медик, друг-разведчик. Глава II."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить
+      description: Где находились герои, какой объект и действие выбрали, какая была фаза?
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Что произошло и чего ожидали
+      description: Укажите точный текст ошибки. Скриншот поможет.
+    validations:
+      required: true
+  - type: textarea
+    id: connection
+    attributes:
+      label: Если проблема с подключением
+      description: LAN или VPN, кого отключило, можно ли вернуться тем же персонажем? Не пишите публично ваш IP и пароль.

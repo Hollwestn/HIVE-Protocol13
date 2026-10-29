@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "players": 3,
+  "qaSpeed": 8,
+  "reachedAct": 5,
+  "outcome": "Падение",
+  "detail": "java.lang.IllegalStateException: Premature ending / action phase: Падение",
+  "countedAsSuccessfulCompletion": false,
+  "repeatSuccess": "fresh-trio.json"
+}

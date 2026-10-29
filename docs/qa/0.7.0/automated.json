@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "tests": 157,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "modules": [
+    {
+      "module": "shared-model",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "game-server",
+      "tests": 130,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "game-client",
+      "tests": 23,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

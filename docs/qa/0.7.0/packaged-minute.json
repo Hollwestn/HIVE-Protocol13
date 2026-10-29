@@ -1,0 +1,14 @@
+{
+  "realMinuteSeconds": 59.977736,
+  "independentTcpClients": 3,
+  "cycle": 2,
+  "b4Sealed": true,
+  "parts": 10,
+  "b04RightArmInfection": 10.0,
+  "worldFrozenDuringVote": true,
+  "lastSevenSecondsMovement": [
+    191.56486517709268,
+    151.9160952631419,
+    106.70115543382491
+  ]
+}

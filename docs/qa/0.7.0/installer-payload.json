@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "msiVersion": "0.7.0",
+  "packagedFiles": 404,
+  "matchedApplicationFiles": 403,
+  "everyApplicationFileMatchesTestedAppImage": true,
+  "installerMarkersVerified": [
+    "app/.package"
+  ],
+  "guideIncluded": true,
+  "launcherIncluded": true,
+  "nativeAppImageMinutePassed": true,
+  "actualInstallUninstallVerified": false,
+  "reason": "A related installation already exists; installation check stopped before making changes. MSI payload extracted with WiX dark and compared without installing.",
+  "codeSigned": false
+}

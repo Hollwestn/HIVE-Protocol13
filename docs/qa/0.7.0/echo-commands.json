@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "sourceCheckpoint": "Сохранение проигранной партии второй главы: два Эхо, один живой разведчик",
+  "players": 3,
+  "echoSlot": 1,
+  "cameraRoom": "V5",
+  "gate": "E06",
+  "powerBefore": 100.0,
+  "powerAfter": 89.0,
+  "cameraExpiresAt": 1162.1155737995243,
+  "markExpiresAt": 1170.2155508995218,
+  "gameSeconds": 1170.603738399513,
+  "actorOutcomes": [
+    {
+      "life": "ECHO",
+      "hp": 0.0,
+      "slot": 0
+    },
+    {
+      "life": "ECHO",
+      "hp": 0.0,
+      "slot": 1
+    },
+    {
+      "life": "ALIVE",
+      "hp": 33.9028604020211,
+      "slot": 2
+    }
+  ],
+  "commands": 13,
+  "teleportsOrGrantedItems": false
+}

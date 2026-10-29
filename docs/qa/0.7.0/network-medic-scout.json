@@ -1,0 +1,37 @@
+{
+  "sourceAct": 5,
+  "runningAct": 6,
+  "phaseAtStart": "ACTION",
+  "passed": true,
+  "act": 6,
+  "seconds": 120,
+  "players": 2,
+  "rateBytesPerSecond": 65536,
+  "readerPauseSeconds": 10,
+  "pauseExecuted": true,
+  "proxyBytes": 7196938,
+  "commandsSent": 89,
+  "commandsAcknowledged": 89,
+  "cycles": [
+    38,
+    39,
+    40
+  ],
+  "maxSnapshotAgeSeconds": 10.1904833,
+  "clients": [
+    {
+      "frames": 621,
+      "connected": true,
+      "error": "",
+      "rtt": 0,
+      "slot": 1
+    },
+    {
+      "frames": 547,
+      "connected": true,
+      "error": "",
+      "rtt": 3082,
+      "slot": 2
+    }
+  ]
+}
